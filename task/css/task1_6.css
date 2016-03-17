@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	height: 1386px;
+}
+.main {
+	position: relative;
+	margin: 0 auto;
+	width: 892px;
+}
+.head {
+	position: relative;
+	width: 100%;
+}
+.adr {
+	width: 110px;
+	height: 61px;
+	font: 12px "黑体";
+	color: #fff;
+	background: #d45d5c;
+}
+.adr>span {
+	position: relative;
+	top: 44px;
+	left: 5px;
+}
+.head>span {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	font: 12px "黑体";
+	color: #d45d5c;
+}
+.head hr {
+	width: 100%;
+    height: 2px;
+    background: #938e8c;
+}
+.title {
+	position: relative;
+	margin-top: 40px;
+}
+.titlePicture {
+	position: relative;
+	width: 641px;
+	height: 301px;
+	background: url(../img/lefttop.png);
+}
+.greenShadow, .redSshadow {
+	opacity: 0.5;
+	width: 191px;
+	height: 301px;
+}
+.greenShadow {
+	background: #428c59;
+}
+.redSshadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #cc7680;
+}
+.titleText {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 203px;
+}
+.titleText hr {
+	width: 203px;
+	height: 2px;
+	background: #cc8091;
+}
+.titleText span {
+	font: 24px "微软雅黑";
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.titleText>p {
+	font: italic 12px "楷体";
+	color: #676767;
+}
+.num1 {
+	margin-left: -20px;
+	font: italic 116px "微软雅黑";
+	color: #75b86b;
+}
+.num2 {
+	position: relative;
+	font: 55px "微软雅黑";
+	color: #cc8091;
+}
+.num2text {
+	position: absolute;
+	left: 85px;
+    bottom: 10px;
+}
+.num2text1 {
+	font-size: 21px;
+}
+.num2text2 {
+	font-size: 12px;
+	color: #cacbcb;
+}
