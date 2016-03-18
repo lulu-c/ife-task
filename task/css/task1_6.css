@@ -155,3 +155,191 @@ body {
 .howwhat span {
 	color: #cd4a48;
 }
+.technologe {
+	margin-top: 60px;
+}
+.paragraph {
+	width: 415px;
+}
+.paragraph h2, .paragraph h3 {
+	font: bold 42px "黑体";
+	color: #11456b;
+}
+.paragraph h2 {
+	line-height: 16px;
+}
+.paragraph h3 {
+	margin-top: 18px;
+	margin-bottom: 13px;
+	font-size: 33px;
+}
+.paragraph h2>span {
+	font: italic 72px "黑体";
+	font-weight: 700;
+	color: #f5e327;
+}
+.paragraph hr {
+	width: 415px;
+	height: 2px;
+	background: #11456b;
+}
+.paragraphText {
+	padding-top: 20px;
+	font: 12px "宋体";
+	line-height: 16px;
+	color: #767777;
+}
+.paragraphText>div {
+	position: relative;
+    bottom: 13px;
+	float: left;
+	margin-right: 5px;
+	height: 80px;
+	font: 70px "微软雅黑";
+	color: #f5e327;
+}
+.paragraphText>img {
+	margin: 16px;
+	margin-right: 5px;
+	float: right;
+}
+.rightdown {
+	float: right;
+}
+.downpicture {
+	position: relative;
+}
+.downpicture>img {
+	width: 458px;
+	height: 275px;
+}
+.downpictureText {
+	overflow: hidden;
+	position: absolute;
+	top: 214px;
+	width: 458px;
+	height: 61px;
+	background: rgba(0,0,0,0.4);
+}
+.downpictureText>div {
+	float: left;
+	position: relative;
+	left: 40px;
+	top: 50%;
+	margin-top: -22px;
+	width: 3px;
+	height: 44px;
+	background: #72b16a;
+}
+.downpictureText h5 {
+	float: left;
+	position: relative;
+	left: 50px;
+	border-left: 2px;
+	font: 26px "微软雅黑";
+	color: #fff;
+	line-height: 61px;
+}
+.downpictureText span {
+	position: relative;
+	left: 60px;
+	top: 30px;
+	font: italic 12px "微软雅黑";
+	color: #72b16a;
+}
+.hello {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: 459px;
+	height: 318px;
+	font: 16px "宋体";
+	color: #5a5b5b;
+	background: #eeedd6;
+}
+.hello img {
+	position: relative;
+    top: 28px;
+    left: 25px;
+}
+.hello p {
+	position: relative;
+	top: -80px;
+    left: 50px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.hello span {
+	font-size: 12px;
+	font-style: italic;
+}
+.number {
+	position: absolute;
+	bottom: 0;
+	width: 260px;
+	height: 160px;
+	color: #fff;
+	background: #d45d5c;
+}
+.zero {
+	position: relative;
+	top: 15px;
+	margin-left: 10px;
+	margin-right: 5px; 
+	font: 110px "微软雅黑";
+}
+.line {
+	position: absolute;
+	top: 50px;
+    left: 77px;
+	width: 2px;
+	height: 86px;
+	background: #fff;
+}
+.number .one {
+	position: absolute;
+	left: 85px;
+    top: 55px;
+	font: italic 21px "黑体";
+}
+.number .world {
+	position: absolute;
+	left: 85px;
+	top: 103px;
+	font: 12px "黑体";
+}
+.bigworld {
+	position: absolute;
+    right: 10px;
+    top: 180px;
+    width: 170px;
+	height: 160px;
+	font: italic 14px "黑体";
+	line-height: 16px;
+	color: #5a5b5b;
+}
+.bigworld span {
+	width: 40px;
+    height: 10px;
+	font: 72px "黑体";
+	color: #d45d5c;
+}
+.up {
+	float: left;
+	position: relative;
+    top: -18px;
+    left: -40px;
+}
+.down {
+	float: right;
+}
+.main hr {
+	width: 892px;
+	height: 1px;
+	background: #938e8c;
+}
+.last {
+	float: right;
+	font: 12px "黑体";
+	color: #d45d5c;
+}
