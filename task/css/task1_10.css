@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.parent {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+.one, .two, .three, .four {
+	margin-bottom: 20px;
+	width: 150px;
+	border: 1px solid #f00;
+}
+.one {
+	height: 120px;
+}
+.two {
+	height: 100px;
+}
+.three {
+	height: 40px;
+}
+.four {
+	height: 200px;
+	border: 1px solid #0f0;
+}
+@media screen and (max-width: 640px) {
+	.parent {
+		align-items: flex-start;
+	}
+	.four {
+		order: -1;
+	}
+}
